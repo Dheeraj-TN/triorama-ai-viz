@@ -35,7 +35,7 @@ const ImageSection = () => {
       {/* Modal */}
       {selectedUrl && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
-          <div className="relative bg-white p-4 rounded-lg shadow-lg w-[90vw] h-[90vh] max-w-8xl max-h-[90vh]">
+          <div className="relative bg-white p-4 rounded-lg shadow-lg w-[95vw] h-[95vh] max-w-9xl max-h-[95vh]">
             <button
               className="absolute top-2 right-2 text-2xl font-bold text-gray-600 hover:text-black"
               onClick={() => setSelectedUrl(null)}
